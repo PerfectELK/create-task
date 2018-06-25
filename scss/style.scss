@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Huntsman;
+    src: url('../fonts/Huntsman.otf');
+}
+
+@font-face {
+    font-family: Exo;
+    src: url('../fonts/Exo.otf');
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans.ttf');
+}
+body, html {
+    padding: 0;
+    margin: 0;
+    color: #5e5e5e;
+    font-family: "Open Sans", sans-serif;
+    overflow-x:hidden;
+    background-color: #ddd;
+}
+.table_login{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 250px;
+    padding-top:250px;
+}
+.table_login  input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:25px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+.table_login  input:hover, .table_login  button:hover{
+    background: #E3E1A2;
+    cursor: pointer;
+}
+.table_login  button{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:25px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+.table_login  button{
+    background: #fff;
+    width:270px;
+}
+.table_reg{
+    text-align: center;
+    width: 100%;
+    padding-bottom: 190px;
+    padding-top:190px;
+}
+.table_reg  input{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:25px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+.table_reg  input:hover, .table_reg  button:hover{
+    background: #E3E1A2;
+    cursor: pointer;
+
+}
+.table_reg  button{
+    background: #fff;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:25px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+}
+.table_reg  button{
+    width:270px;
+}
+.fas{
+    font-size: 20px;
+    color: #FF1300FF;
+}
+.checkdiv{
+    display: inline-block;
+    width:1px;
+    height: 1px;
+    background: #fff;
+}
+.successReg{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #e6e09a;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.reglink{
+    position: absolute;
+    right: 0;
+    top:0;
+    color: #000;
+    font-weight: bold;
+}
+.login, .reg{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.container{
+   background: #f6f8f9; /* Old browsers */
+background: -moz-linear-gradient(top, #f6f8f9 0%, #e5ebee 25%, #d7dee3 67%, #f5f7f9 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #f6f8f9 0%,#e5ebee 25%,#d7dee3 67%,#f5f7f9 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 25%,#d7dee3 67%,#f5f7f9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+}
+ 
+.navmenu{
+    display: flex;
+    justify-content: space-around;
+}
+.navmenu > li{
+    display: flex;
+
+}
+.navmenu > li > a{
+     color: #000;
+}
+.navmenurow{
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); 
+    background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); 
+    background: linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 );
+}
+.tasks{
+    margin: 0 auto;
+    color:#000;
+    text-align: center;
+}
+.tasks > th{
+    text-align: center;
+}
+.tasks > tbody > tr{
+    border-bottom: 1px solid black;
+}
+.tabletask{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.nametask{
+    margin-top: 40px;
+    text-align: center;
+}
+.tabletask > table {
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
+.editbutton{
+    margin-top: 40px;
+}
+.editwindow{
+    display: none;
+}
+#description{
+    resize: none;
+    background: none;
+}
+.id{
+    display: none;
+}
+.okedit{
+    display: none;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.taskstable{
+    overflow: auto;
+}
+.tabletask{
+    overflow: auto;
+}
+.containerCreate{
+    display: none;
+}
+.title{
+    text-align: center;
+}
+.myinfo{
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+}
